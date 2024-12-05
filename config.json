@@ -1,0 +1,16 @@
+{
+    "s3": {
+        "endpoint": "minio.example.com",
+        "port": 9000,
+        "bucket": "markdown",
+        "accessKey": "your-access-key",
+        "secretKey": "your-secret-key",
+        "region": "us-east-1",
+        "useSSL": true
+    },
+    "custom": {
+        "baseUrl": "https://minio.example.com",
+        "path": "pages",
+        "outputDir": "output"
+    }
+}
