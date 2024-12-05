@@ -566,6 +566,27 @@ func convertMarkdownToHTML(content string) string {
             tab-size: 4;
             -moz-tab-size: 4;
         }
+        img {
+            max-width: 100%%;
+            height: auto;
+            display: block;
+            margin: 1em auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .image-container {
+            text-align: center;
+            margin: 1em 0;
+        }
+        .image-container img {
+            margin: 0 auto;
+        }
+        .image-caption {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 0.5em;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
